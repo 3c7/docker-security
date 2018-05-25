@@ -1,7 +1,7 @@
-FROM k0st/alpine-rt
+FROM 0x3c7/alpine-rt
 MAINTAINER kost - https://github.com/kost
 
-ENV RTIR_VERSION 3.2.0
+ENV RTIR_VERSION 4.0.0
 # https://download.bestpractical.com/pub/rt/release/RT-IR-3.2.0.tar.gz
 
 RUN  wget -O /tmp/RT-IR-$RTIR_VERSION.tar.gz https://download.bestpractical.com/pub/rt/release/RT-IR-$RTIR_VERSION.tar.gz && \
